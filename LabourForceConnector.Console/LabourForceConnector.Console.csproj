@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Downloads\" />
+      <PackageReference Include="ExcelDataReader" Version="3.7.0-develop00385" />
+      <PackageReference Include="ExcelDataReader.DataSet" Version="3.7.0-develop00385" />
+      <PackageReference Include="HtmlAgilityPack" Version="1.11.54" />
+      <Folder Include="Conversions\" />
+
+    </ItemGroup>
+
+
+
+
+</Project>
